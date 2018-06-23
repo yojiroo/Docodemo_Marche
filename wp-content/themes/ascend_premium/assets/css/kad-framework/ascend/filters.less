@@ -1,0 +1,81 @@
+.kt-filter-options {
+	margin: 0 0 15px;
+}
+.filter-set {
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    width: auto;
+    text-align: center;
+    li {
+    	display: inline-block;
+    	margin: 5px 8px;
+    	a {
+    		display: block;
+    		position: relative;
+    		.arrow-up {
+				    position: absolute;
+				    left: 50%;
+				    top: 100%;
+				    border-top: 6px solid transparent;
+				    display: block;
+				    margin-left: -6px;
+				    height: 0;
+				    border-bottom: 6px solid transparent;
+				    border-left: 6px solid transparent;
+				    border-right: 6px solid transparent;
+				}
+    		&.selected {
+    			border-bottom: 2px solid;
+    			.arrow-up {
+				    border-top-color: inherit;
+				}
+    		}
+    		h5 {
+			    margin: 0;
+			}
+    	}
+    }
+}
+.filter-trigger {
+    display: none;
+}
+@media (max-width: 767px) {
+	.filter-trigger {
+	    cursor: pointer;
+	    display: block;
+	    padding: 4px 0;
+	    color: #777;
+	    text-align: center;
+	    font-weight: 700;
+	    font-size: 18px;
+	    text-transform: uppercase;
+	    border-bottom: 2px solid #aaa;
+	    letter-spacing: 3px;
+	    background: transparent;
+	    .transition(all .3s ease-out);
+	}
+	.filter-set {
+	    overflow: hidden;
+	    padding: 0 15px;
+	    margin: 0;
+	    float: none;
+	    height: 0;
+	    li {
+		    margin-left: 0;
+		    margin-right: 0;
+		    margin-bottom: 8px;
+		    display: block;
+		    a {
+		    	padding: 5px 0 8px;
+		    	&.selected {
+    				border-bottom: 0px;
+    				background: @primary;
+    				h5{
+    					color: #fff;
+    				}
+    			}
+		    }
+		}
+	}
+}

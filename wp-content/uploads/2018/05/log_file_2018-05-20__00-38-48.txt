@@ -1,0 +1,86 @@
+
+---Downloaded files---
+The import files for: Shopping Site were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost/wordpress
+Data file = /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/2018/05/demo-content-import-file_2018-05-20__00-38-48.xml
+Widget file = /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/2018/05/demo-widgets-import-file_2018-05-20__00-38-48.json
+Customizer file = not defined!
+Redux files:
+ascend -> /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/2018/05/demo-redux-import-file_0-2018-05-20__00-38-48.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---pt-ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Primary Sidebar : 
+
+検索 - No Title - Widget already exists
+Ascend: Recent Posts - Recent Posts - Imported
+Ascend: Social Links - Follow Us - Imported
+カテゴリー - No Title - Widget already exists
+
+Shop Sidebar : 
+
+Product Search - No Title - Imported
+Product Categories - Product Categories - Imported
+Filter Products by Price - Filter by price - Imported
+Filter Products by Attribute - Filter by - Imported
+Recent Product Reviews - Recent Reviews - Imported
+Recent Viewed Products - Recently Viewed Products - Imported
+
+Header Extras Widget Area : 
+
+Ascend: Social Links - No Title - Imported
+
+Topbar Widget Area : 
+
+ビジュアルエディター - No Title - Imported
+
+Home Widget Area : 
+
+Layout Builder - No Title - Imported
+
+Above Footer Widget Area : 
+
+Layout Builder - No Title - Imported
+
+Footer Column 1 : 
+
+ビジュアルエディター - No Title - Imported
+
+Footer Column 2 : 
+
+ビジュアルエディター - About Us - Imported
+
+Footer Column 3 : 
+
+テキスト - Customer Service - Imported
+Layout Builder - No Title - Imported
+
+Footer Column 4 : 
+
+Ascend: Social Links - Follow Us - Imported
+Ascend: Payment Method Icons - We Accept - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: ascend finished successfully!
+
+---pt-ocdi/after_import---
+

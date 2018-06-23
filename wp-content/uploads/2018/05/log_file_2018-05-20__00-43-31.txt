@@ -1,0 +1,62 @@
+
+---Downloaded files---
+The import files for: Free Demo Site were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost/wordpress
+Data file = /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/2018/05/demo-content-import-file_2018-05-20__00-43-31.xml
+Widget file = /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/2018/05/demo-widgets-import-file_2018-05-20__00-43-31.json
+Customizer file = not defined!
+Redux files:
+ascend -> /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/2018/05/demo-redux-import-file_0-2018-05-20__00-43-31.json 
+
+
+------
+New AJAX call!
+
+
+---pt-ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Primary Sidebar : 
+
+Ascend: Recent Posts - Recent Posts - Widget already exists
+カテゴリー - No Title - Widget already exists
+Ascend: Social Links - Follow Us - Widget already exists
+
+Shop Sidebar : 
+
+Product Search - No Title - Widget already exists
+Filter Products by Price - Filter by price - Widget already exists
+Product Categories - Product Categories - Widget already exists
+Product Tag Cloud - Product Tags - Imported
+Products - Featured Products - Imported
+
+Header Extras Widget Area : 
+
+Ascend: Social Links - No Title - Imported
+
+Footer Column 1 : 
+
+テキスト - About Us - Imported
+
+Footer Column 2 : 
+
+Ascend: Social Links - Follow Us - Imported
+
+Footer Column 3 : 
+
+ナビゲーションメニュー - Customer Service - Imported
+
+Footer Column 4 : 
+
+Ascend: Post Grid - Latest Projects - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: ascend finished successfully!
+
+---pt-ocdi/after_import---
+

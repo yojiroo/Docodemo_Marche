@@ -1,0 +1,118 @@
+@media (max-width: 1200px) {
+	//Post list
+	article.kad_blog_item {
+    	margin-bottom: 30px;
+	}
+}
+// Mobile Header Switch
+@media (max-width: 992px) {
+	.kt-header-position-above {
+		display: none;
+	}
+	#kad-header-menu-sticky-wrapper {
+	    height: 0 !important;
+	    display: none;
+	}
+	.second-nav-container {
+		display: none;
+	}
+	#kad-mobile-banner {
+		display: block;
+		height: auto;
+	}
+}
+@media only screen and (max-device-width: 1024px) {
+	.kt-header-position-above {
+		display: none;
+	}
+	.second-nav-container {
+		display: none;
+	}
+	#kad-mobile-banner {
+		display: block;
+		height: auto;
+	}
+	#kad-header-menu-sticky-wrapper {
+	    height: 0 !important;
+	    display: none;
+	}
+    body.kad-header-position-left #wrapper {
+        padding-left: 0px;
+    }
+    body.kad-header-position-right #wrapper {
+        padding-right: 0px;
+    }
+    #kad-vertical-menu {
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+	.blog_photo_item .photo-postcontent .photo-postcontent-inner {
+		.entry-title {
+			.translate3d(0,0px,0);
+		}
+		.kt-post-photo-added-content {
+			display: none;
+		}
+	}
+}
+// Mobile Vertical
+@media (max-width: 544px) {
+	// Post
+	.blog_mosaic_item {
+	    width: 100%;
+	}
+	.p-outer-mosaic .p_item {
+	    width: 100%;
+	}
+	.kt-quote-post {
+		padding:20px 40px;
+		&:before {
+		    left: 10px;
+		    top: 10px;
+		    font-size: 24px;
+		}
+		&:after {
+		    right: 10px;
+		    bottom: 10px;
+		    font-size: 24px;
+		}
+	}
+	.kt-image-quote {
+		padding:15px;
+	}
+
+}
+@media (max-width: 992px) {
+	.kad-ascend-parallax, .kt-parallax-stellar {
+		background-attachment: scroll !important;
+		    background-position: center !important;
+	}
+}
+@media only screen and (max-device-width: 1024px) {
+	.kad-ascend-parallax, .kt-parallax-stellar {
+		background-attachment: scroll !important;
+		    background-position: center !important;
+	}
+}
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+	.kad-ascend-parallax, .kt-parallax-stellar {
+		background-attachment: scroll!important;
+		background-position: center!important;
+	}
+}
+/* Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+	.kad-ascend-parallax, .kt-parallax-stellar {
+		background-attachment: scroll!important;
+		background-position: center!important;
+	}
+}
